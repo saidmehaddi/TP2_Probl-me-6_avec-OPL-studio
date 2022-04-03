@@ -4,18 +4,18 @@
  * Creation Date: 24 mars 2022 at 10:40:35
  *********************************************/
 
-//lire dans un fichier le nb d'objet et le poids max
-int nbVillei = ...; //déclarer le nombre des ville i
-int nbVillej =...;  //déclarer le nombre des ville j
+// lire dans un fichier le nb d'objet et le poids max
+int nbVillei = ...; //dÃ©clarer le nombre des ville i
+int nbVillej =...;  //dÃ©clarer le nombre des ville j
 
-range Villei= 1..nbVillei; //déclarer un intervalle d'entiers de 1 à nbVillei
-range Villej= 1..nbVillej; //déclarer un intervalle d'entiers de 1 à nbVillej
+range Villei= 1..nbVillei; // dÃ©clarer un intervalle d'entiers de 1 Ã  nbVillei
+range Villej= 1..nbVillej; // dÃ©clarer un intervalle d'entiers de 1 Ã  nbVillej
 
-float Distance [Villei][Villej]=...; //déclarer de distance entre ville i ville j 
-int Nbrhabitants [Villei]=...;  //déclarer le nombre d’habitants de la ville i
+float Distance [Villei][Villej]=...; // dÃ©clarer de distance entre ville i ville j 
+int Nbrhabitants [Villei]=...;  // dÃ©clarer le nombre dâ€™habitants de la ville i
 
-dvar boolean Perception[Villej]; // Déclarer les variables de décisions
-dvar boolean depPerception[Villei][Villej]; // Déclarer les variables de décisions
+dvar boolean Perception[Villej]; // DÃ©clarer les variables de dÃ©cisions
+dvar boolean depPerception[Villei][Villej]; // DÃ©clarer les variables de dÃ©cisions
 
 // function objectif
 
