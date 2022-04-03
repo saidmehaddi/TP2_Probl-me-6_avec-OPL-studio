@@ -15,7 +15,7 @@
 
 // MILP slack bound error (Total, Max)           0.00000e+000 0.00000e+000
 
-// 
+// les variables de décisions
 
 
 depPerception = 
